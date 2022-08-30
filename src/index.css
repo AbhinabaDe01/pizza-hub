@@ -11,3 +11,200 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul{
+  list-style: none;
+}
+
+span.active{
+  font-weight: bold;
+  color: yellow;  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App{
+  background-color: blueviolet;
+  height: 100vh;
+  align-items: center;
+  justify-content: center ;
+}
+
+.header{
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.container{
+  margin-top: -10px;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header a{
+  font-size: 30px;
+  color: white;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.home button{
+  font-size: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid white;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.home h1{
+  color: white;
+}
+
+.base{
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.base button{
+  font-size: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid white;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.base li{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.base h2{
+  font-size: 30px;
+  color: white;
+}
+
+.base ul{
+  margin-top: 20px;
+}
+
+.toppings{
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.toppings h2{
+  font-size: 30px;
+  color: white;
+}
+
+.topping ul{
+  margin-top: 20px;
+}
+
+.toppings li{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.toppings button{
+  font-size: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid white;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.order{
+  height: 300px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.order h3{
+  color: white;
+}
+
+.order li{
+  color: darkturquoise;
+}
+
+h1, h2, h3{
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin: 0 auto; 
+}
+
+.orderss{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.order-individual{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+span .no{
+  text-decoration: none;
+}
+
+.order-btn button{
+  margin-top: 20px;
+  font-size: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid white;
+  border-radius: 35px;
+  cursor: pointer;
+}
